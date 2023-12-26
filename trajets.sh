@@ -9,7 +9,6 @@ L() {
     /usr/bin/time -p cat "$1" | awk -F';' '{distance[$1] += $5} END {for (id in distance) print id, distance[id], $6}' | sort -k2 -nr | head -n 10
 }
 
-# Appel de la fonction L en passant le fichier en paramètre
 L "data.csv"
 
 
