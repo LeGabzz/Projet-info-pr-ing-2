@@ -13,7 +13,6 @@ awk -F ';' '!seen[$1,$2]++ {count[$2]++} END {for (person in count) {print count
 sort -rn counted_unique_lines.csv | head -n 10 > sorted_top10.csv
 
 # Affichage des 10 premières lignes du fichier résultant
-echo "Les 10 premières lignes de sorted_top10.csv :"
 head -n 10 sorted_top10.csv
 
 # Suppression des fichiers temporaires
