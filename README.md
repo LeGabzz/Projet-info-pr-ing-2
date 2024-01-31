@@ -20,5 +20,6 @@ Il faut avant tout installer cmake, gcc et gnuplot pour pouvoir exécuter et aff
 
 Afin d'exécuter le programme, il faut faire entrer : 
  ./projetG.sh [chemin data.csv] [traitement]
-Par exemple pour exécuter l’option s:
+ 
+ Par exemple pour exécuter l’option s:
  ./projetG.sh/home/utilisateur/projet/data.csv -s
