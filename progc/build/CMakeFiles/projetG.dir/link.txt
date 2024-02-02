@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/projetG.dir/main.c.o CMakeFiles/projetG.dir/optionT.c.o CMakeFiles/projetG.dir/optionS.c.o -o projetG 

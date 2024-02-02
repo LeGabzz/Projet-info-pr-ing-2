@@ -1,0 +1,21 @@
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+t1 = ma
+
+all : ma
+
+ma: main.o opt.o ops.o
+	$(CC) $(CFLAGS) -o $@ $^
+
+main.o: main.c optionT.h optionS.h
+	$(CC) $(CFLAGS) -c main.c
+
+ops.o : optionS.c optionS.h
+	$(CC) $(CFLAGS) -c optionS.c
+
+opt.o : optionT.c optionT.h
+	$(CC) $(CFLAGS) -c -optionT.c
+	
+clean:
+	rm -f $(t1) main.o opt.o ops.o

@@ -1,0 +1,3 @@
+/home/Projet_info/progc/build/CMakeFiles/projetG.dir
+/home/Projet_info/progc/build/CMakeFiles/edit_cache.dir
+/home/Projet_info/progc/build/CMakeFiles/rebuild_cache.dir
