@@ -40,3 +40,7 @@ Ensuite, il faut écrire :
  
  Par exemple pour exécuter l’option s:
  ./projetG.sh/home/utilisateur/projet/data.csv -s
+
+ III/ Erreurs
+
+ Nous avons des erreurs de valeur lorsque l'on éxecute l'option t et l'option s. Pour l'option t, on obtient des valeurs trop grandes, on ne sait pas d'où provient cette anomalie. Et pou l'option S, quelques valeurs sont fausses dans les lignes, on ne sait pas d'où provient ces erreurs.
