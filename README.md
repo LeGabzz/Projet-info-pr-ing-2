@@ -23,7 +23,7 @@ S = En utilisant le même procédé que pour l’option T, l’option S se base 
 
 II/ Execution
 
-Il faut avant tout installer cMakelist, gcc et gnuplot pour pouvoir exécuter et afficher les graphiques.
+Il faut avant tout installer cMakelist et gnuplot pour pouvoir exécuter et afficher les graphiques.
 
 Pour installer gnuplot :
 
