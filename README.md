@@ -25,11 +25,6 @@ II/ Execution
 
 Il faut avant tout installer cMakelist, gcc et gnuplot pour pouvoir exécuter et afficher les graphiques.
 
-Pour installer gcc : 
-
-sudo apt-get update
-sudo apt-get install gcc
-
 Pour installer gnuplot :
 
 sudo apt-get update
