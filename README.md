@@ -1,4 +1,11 @@
-# Projet-info-pr-ing-2
+# Projet-info-pr-ing-
+
+Contenu du projet :
+
+- ReadMe.md = Ce fichier, qui contient les informations sur les options, la bonne façon d'executer ainsi que les limites connues.
+- Planning.pdf = Un pdf composé d'un tableau où la distribution en fonction du temps est clairement exposé.
+- projetG.sh = Le centre de notre projet, un fichier shell qui regroupe toutes les options décrites ci dessous.
+- main.c = le fichier c utile pour l'execution des options S et T, contient un AVL et ses structures.
 
 I/ Informations sur les options.
 
@@ -16,9 +23,24 @@ S = En utilisant le même procédé que pour l’option T, l’option S se base 
 
 II/ Execution
 
-Il faut avant tout installer cmake, gcc et gnuplot pour pouvoir exécuter et afficher les graphiques.
+Il faut avant tout installer cMakelist, gcc et gnuplot pour pouvoir exécuter et afficher les graphiques.
 
-Afin d'exécuter le programme, il faut faire entrer : 
+Pour installer gcc : 
+
+sudo apt-get update
+sudo apt-get install gcc
+
+Pour installer gnuplot :
+
+sudo apt-get update
+sudo apt-get install gnuplot
+
+Pour executer le programme shell, il faudra d'abord donner les permissions, soit : 
+
+  chmod +x projetG.sh 
+
+Ensuite, il faut écrire : 
+
  ./projetG.sh [chemin data.csv] [traitement]
  
  Par exemple pour exécuter l’option s:
